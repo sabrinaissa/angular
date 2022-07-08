@@ -1,0 +1,29 @@
+.main{
+    background-color: white;
+    height: 80%;
+    width: 92%;
+    margin-top: 10px;
+    
+}
+#cd{
+    margin-top: 10px;
+}
+.u{
+    font-size: 22px;
+    margin: 1rem;
+    margin-right: 25%;
+    margin-top: -20px;
+   
+}
+.hour{
+    float: right;
+    color: darkblue;
+}
+.fd{
+    display: flex;
+    margin-left: 20%;
+}
+.ur{
+    font-size: 22px;
+    color: red;
+}

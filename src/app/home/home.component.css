@@ -1,0 +1,59 @@
+.th{
+    background: gray;
+    height: 20%;
+}
+.im{
+    height: 300px;
+    width: 98%;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.pic{
+    width: 15%;
+    height: 25%;
+    border-radius: 30px 30px 30px 20px;
+}
+.main{
+    background-color: white;
+    height: 90%;
+    width: 92%;
+    margin-top: 10px;
+}
+.pbs{
+    background:white;
+    margin-top: 10px;
+    margin-left: 0px;
+    margin-right: 5px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* border: 2px solid gold; */
+}
+.pb{
+    background: white;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* border: 2px solid gold; */
+}
+.margin{
+    margin-left: 90px;
+    margin-top: 20px;
+    /* margin-right: 40px; */
+    
+
+}
+.r{
+    width: 230px;
+    height: 250px;
+    /* border: 1px solid red; */
+    /* border: 2px solid darkblue; */
+}
+.m1{
+    max-width: fit-content;
+}
