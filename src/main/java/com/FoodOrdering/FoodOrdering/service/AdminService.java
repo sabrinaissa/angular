@@ -12,11 +12,14 @@ public class AdminService {
     @Autowired
     private AdminRepo repo;
     public void adduser(Admin admin) {
+
         repo.save(admin);
+
     }
 
     public List<Admin> addusers(List<Admin> add) {
         return repo.saveAll(add);
+
     }
 
     public void updateadmin(Admin update) {
@@ -25,6 +28,7 @@ public class AdminService {
 
     public List<Admin> getadmin() {
         return repo.findAll();
+
     }
 
     public void deleteadmin(Integer id){
